@@ -9,8 +9,7 @@ Esta aplicación utiliza Pandas AI para cargar y procesar datasets de jugadores 
 
 Para configurar la aplicación, es necesario crear un archivo `.env` en el directorio raíz del proyecto y añadir las siguientes variables de entorno:
 
-#### OPEN_AI_KEY
-<tu_secreto_OpenAI> 
+#### OPEN_AI_KEY=<tu_secreto_OpenAI> 
 
 #### PANDAS_AI_KEY=<tu_secreto_PandasAI>
 
