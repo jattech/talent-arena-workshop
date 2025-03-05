@@ -3,14 +3,19 @@
 Esta aplicación utiliza Pandas AI para cargar y procesar datasets de jugadores de la NBA. Los datos se cargan desde un archivo CSV y podemos analizarlos en:
 
 1) local (se necesita una key de OpenAI)
-2) cloud PandasAI (se necesita una key de PandasAI)
+2) cloud PandasAI (se necesita una key de PandasAI y el id de la account de PandasAI)
 
 ## Configuración
 
 Para configurar la aplicación, es necesario crear un archivo `.env` en el directorio raíz del proyecto y añadir las siguientes variables de entorno:
 
-OPEN_AI_KEY=<tu_clave_de_api_OpenAI> 
-PANDA_AI_KEY=<tu_secreto_PandasAI>
+OPEN_AI_KEY=<tu_secreto_OpenAI> 
+
+PANDAS_AI_KEY=<tu_secreto_PandasAI>
+![alt text](image.png)
+
+PANDAS_AI_ACCOUNT = <tu_cuenta_PandasAI>
+![alt text](image-1.png)
 
 Estas claves son necesarias para autenticarte con el servicio de Pandas AI y poder cargar y subir datasets.
 
